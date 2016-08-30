@@ -22,17 +22,11 @@ object Form1: TForm1
     DoubleBuffered = True
     ParentDoubleBuffered = False
     TabOrder = 0
+    OnClick = HTMLButton1Click
     Alignment = haCenter
     Background = stNormal
     BorderColor = clGray
     VAlignment = vaCenter
     Version = '1.6.2.0'
-  end
-  object ZylSerialPort1: TZylSerialPort
-    CustomPortName = 'vcom1'
-    AutoReceive = True
-    NewLine = #13#10
-    Left = 224
-    Top = 128
   end
 end

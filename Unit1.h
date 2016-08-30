@@ -8,13 +8,12 @@
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
 #include "htmlbtns.hpp"
-#include "ZylSerialPort.hpp"
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
-	TZylSerialPort *ZylSerialPort1;
 	THTMLButton *HTMLButton1;
+	void __fastcall HTMLButton1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
